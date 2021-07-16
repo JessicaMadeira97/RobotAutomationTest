@@ -1,6 +1,6 @@
 import openpyxl
 
-excel_file = openpyxl.load_workbook('C:\Users\rebecca.madeira\Desktop\RobotAutomationTest\ExcelFiles\TestingData.xlsx')
+excel_file = openpyxl.load_workbook('C://Users/rebecca.madeira/Desktop/RobotAutomationTest/ExcelFiles/TestingData.xlsx')
 
 def number_rows(sheetname):
     sh = excel_file[sheetname]
